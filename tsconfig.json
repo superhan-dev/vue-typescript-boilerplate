@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "strictNullChecks": false,
     "target": "esnext",
     "module": "esnext",
     "strict": true,
@@ -25,7 +26,9 @@
       "esnext",
       "dom",
       "dom.iterable",
-      "scripthost"
+      "scripthost",
+      "es5", 
+      "es6",
     ]
   },
   "include": [
